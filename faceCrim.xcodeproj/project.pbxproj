@@ -10,9 +10,22 @@
 		14CF0DA52D01027500311DB7 /* faceCrim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = faceCrim.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		14CF0DB72D01066800311DB7 /* Exceptions for "faceCrim" folder in "faceCrim" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 14CF0DA42D01027500311DB7 /* faceCrim */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		14CF0DA72D01027500311DB7 /* faceCrim */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				14CF0DB72D01066800311DB7 /* Exceptions for "faceCrim" folder in "faceCrim" target */,
+			);
 			path = faceCrim;
 			sourceTree = "<group>";
 		};
@@ -255,6 +268,11 @@
 				DEVELOPMENT_TEAM = Q982S7K57N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = faceCrim/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FaceCrim;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSCameraUsageDescription = "$(PRODUCT_NAME) Need camera access to scan your face.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "$(PRODUCT_NAME) Need photo library access to scan your face.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -284,6 +302,11 @@
 				DEVELOPMENT_TEAM = Q982S7K57N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = faceCrim/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FaceCrim;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSCameraUsageDescription = "$(PRODUCT_NAME) Need camera access to scan your face.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "$(PRODUCT_NAME) Need photo library access to scan your face.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
